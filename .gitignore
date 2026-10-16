@@ -1,0 +1,24 @@
+# Dados do CrowdHuman: redistribuição proibida pelos termos de uso
+data/
+*.odgt
+CrowdHuman_*.zip
+
+# Checkpoints, pesos e logs de experimentos
+runs/
+*.pt
+*.pth
+
+# Builds
+build/
+out/
+cmake-build-*/
+
+# Bibliotecas externas (instaladas fora do repositório)
+libtorch/
+opencv/
+
+# IDE / sistema
+.vs/
+.vscode/
+*.user
+Thumbs.db
